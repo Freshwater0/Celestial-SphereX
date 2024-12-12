@@ -1,0 +1,15 @@
+{
+  "timestamp": "2024-12-09T02:40:46.359Z",
+  "configuration": {
+    "concurrentUsers": 20,
+    "totalUsers": 100
+  },
+  "metrics": {
+    "totalProcessingTime": 305.9078,
+    "successfulRegistrations": 100,
+    "failedRegistrations": 0,
+    "successRate": 100,
+    "averageProcessingTimePerUser": 3.059078
+  },
+  "errors": []
+}

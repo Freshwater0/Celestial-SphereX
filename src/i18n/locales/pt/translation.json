@@ -1,0 +1,75 @@
+{
+  "settings": {
+    "title": "Configurações",
+    "appearance": {
+      "title": "Aparência",
+      "theme": {
+        "title": "Modo do Tema",
+        "description": "Escolha entre tema claro e escuro",
+        "light": "Claro",
+        "dark": "Escuro"
+      },
+      "language": {
+        "title": "Idioma",
+        "description": "Escolha seu idioma preferido"
+      },
+      "timezone": {
+        "title": "Fuso Horário",
+        "description": "Selecione seu fuso horário",
+        "label": "Fuso Horário",
+        "utc8": "Horário do Pacífico (UTC-8)",
+        "utc7": "Horário das Montanhas (UTC-7)",
+        "utc6": "Horário Central (UTC-6)"
+      }
+    },
+    "notifications": {
+      "title": "Notificações",
+      "emailNotifications": {
+        "title": "Notificações por E-mail",
+        "description": "Receba atualizações e alertas por e-mail"
+      },
+      "pushNotifications": {
+        "title": "Notificações Push",
+        "description": "Receba notificações instantâneas no seu navegador"
+      },
+      "marketingEmails": {
+        "title": "E-mails de Marketing",
+        "description": "Receba notícias sobre novos recursos e atualizações"
+      }
+    },
+    "privacy": {
+      "title": "Privacidade e Segurança",
+      "twoFactorAuth": {
+        "title": "Autenticação de Dois Fatores",
+        "description": "Adicione uma camada extra de segurança à sua conta"
+      },
+      "dataSharing": {
+        "title": "Compartilhamento de Dados",
+        "description": "Permitir coleta de dados anônimos para melhorar nossos serviços"
+      },
+      "activityLog": {
+        "title": "Registro de Atividades",
+        "description": "Acompanhe a atividade da conta"
+      }
+    },
+    "buttons": {
+      "save": "Salvar Alterações",
+      "reset": "Restaurar Padrões"
+    },
+    "alerts": {
+      "success": "Configurações salvas com sucesso!",
+      "error": "Falha ao salvar configurações. Por favor, tente novamente."
+    }
+  },
+  "languages": {
+    "en": "Inglês",
+    "es": "Espanhol",
+    "fr": "Francês",
+    "de": "Alemão",
+    "zh": "Chinês",
+    "ko": "Coreano",
+    "ar": "Árabe",
+    "hi": "Hindi",
+    "pt": "Português"
+  }
+}

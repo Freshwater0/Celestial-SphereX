@@ -1,0 +1,72 @@
+{
+  "settings": {
+    "title": "설정",
+    "appearance": {
+      "title": "외관",
+      "theme": {
+        "title": "테마 모드",
+        "description": "밝은 테마와 어두운 테마 중 선택",
+        "light": "밝게",
+        "dark": "어둡게"
+      },
+      "language": {
+        "title": "언어",
+        "description": "선호하는 언어 선택"
+      },
+      "timezone": {
+        "title": "시간대",
+        "description": "시간대 선택",
+        "label": "시간대",
+        "utc8": "태평양 시간 (UTC-8)",
+        "utc7": "산악 시간 (UTC-7)",
+        "utc6": "중부 시간 (UTC-6)"
+      }
+    },
+    "notifications": {
+      "title": "알림",
+      "emailNotifications": {
+        "title": "이메일 알림",
+        "description": "이메일로 업데이트 및 알림 수신"
+      },
+      "pushNotifications": {
+        "title": "푸시 알림",
+        "description": "브라우저에서 즉시 알림 수신"
+      },
+      "marketingEmails": {
+        "title": "마케팅 이메일",
+        "description": "새로운 기능 및 업데이트 소식 수신"
+      }
+    },
+    "privacy": {
+      "title": "개인정보 보호 및 보안",
+      "twoFactorAuth": {
+        "title": "2단계 인증",
+        "description": "계정에 추가 보안 계층 추가"
+      },
+      "dataSharing": {
+        "title": "데이터 공유",
+        "description": "서비스 개선을 위한 익명 데이터 수집 허용"
+      },
+      "activityLog": {
+        "title": "활동 로그",
+        "description": "계정 활동 추적"
+      }
+    },
+    "buttons": {
+      "save": "변경사항 저장",
+      "reset": "기본값으로 재설정"
+    },
+    "alerts": {
+      "success": "설정이 성공적으로 저장되었습니다!",
+      "error": "설정 저장에 실패했습니다. 다시 시도해 주세요."
+    }
+  },
+  "languages": {
+    "en": "영어",
+    "es": "스페인어",
+    "fr": "프랑스어",
+    "de": "독일어",
+    "zh": "중국어",
+    "ko": "한국어"
+  }
+}

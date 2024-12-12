@@ -1,0 +1,69 @@
+{
+  "settings": {
+    "title": "Configuración",
+    "appearance": {
+      "title": "Apariencia",
+      "theme": {
+        "title": "Modo de tema",
+        "description": "Elige entre tema claro y oscuro",
+        "light": "Claro",
+        "dark": "Oscuro"
+      },
+      "language": {
+        "title": "Idioma",
+        "description": "Elige tu idioma preferido"
+      },
+      "timezone": {
+        "title": "Zona horaria",
+        "description": "Elige tu zona horaria",
+        "label": "Zona horaria",
+        "utc8": "Pacífico (UTC-8)",
+        "utc7": "Montaña (UTC-7)",
+        "utc6": "Central (UTC-6)"
+      }
+    },
+    "notifications": {
+      "title": "Notificaciones",
+      "emailNotifications": {
+        "title": "Notificaciones por correo",
+        "description": "Recibe actualizaciones y alertas por correo electrónico"
+      },
+      "pushNotifications": {
+        "title": "Notificaciones push",
+        "description": "Recibe notificaciones instantáneas en tu navegador"
+      },
+      "marketingEmails": {
+        "title": "Correos de marketing",
+        "description": "Recibe noticias sobre nuevas funciones y actualizaciones"
+      }
+    },
+    "privacy": {
+      "title": "Privacidad y Seguridad",
+      "twoFactorAuth": {
+        "title": "Autenticación de dos factores",
+        "description": "Añade una capa extra de seguridad a tu cuenta"
+      },
+      "dataSharing": {
+        "title": "Compartir datos",
+        "description": "Permite la recopilación anónima de datos para mejorar nuestros servicios"
+      },
+      "activityLog": {
+        "title": "Registro de actividad",
+        "description": "Mantén un registro de la actividad de la cuenta"
+      }
+    },
+    "buttons": {
+      "save": "Guardar cambios",
+      "reset": "Restablecer valores predeterminados"
+    },
+    "alerts": {
+      "success": "¡Configuración guardada con éxito!",
+      "error": "Error al guardar la configuración. Por favor, inténtalo de nuevo."
+    }
+  },
+  "languages": {
+    "en": "Inglés",
+    "es": "Español",
+    "fr": "Francés"
+  }
+}

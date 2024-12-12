@@ -1,0 +1,53 @@
+[
+  {
+    "templateId": "template1",
+    "name": "Trading Analytics",
+    "content": {
+      "sections": [
+        {
+          "type": "text",
+          "content": "Welcome to your trading analytics report."
+        },
+        {
+          "type": "chart",
+          "dataSource": "binance",
+          "chartType": "line"
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "template2",
+    "name": "Social Media Engagement",
+    "content": {
+      "sections": [
+        {
+          "type": "text",
+          "content": "Social Media Engagement Overview"
+        },
+        {
+          "type": "chart",
+          "dataSource": "twitter",
+          "chartType": "bar"
+        }
+      ]
+    }
+  },
+  {
+    "templateId": "template3",
+    "name": "Financial Summary",
+    "content": {
+      "sections": [
+        {
+          "type": "text",
+          "content": "Financial Summary for Q1"
+        },
+        {
+          "type": "chart",
+          "dataSource": "nasdaq",
+          "chartType": "pie"
+        }
+      ]
+    }
+  }
+]

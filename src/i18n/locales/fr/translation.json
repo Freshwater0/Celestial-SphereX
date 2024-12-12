@@ -1,0 +1,69 @@
+{
+  "settings": {
+    "title": "Paramètres",
+    "appearance": {
+      "title": "Apparence",
+      "theme": {
+        "title": "Mode thème",
+        "description": "Choisissez entre le thème clair et sombre",
+        "light": "Clair",
+        "dark": "Sombre"
+      },
+      "language": {
+        "title": "Langue",
+        "description": "Choisissez votre langue préférée"
+      },
+      "timezone": {
+        "title": "Fuseau horaire",
+        "description": "Choisissez votre fuseau horaire",
+        "label": "Fuseau horaire",
+        "utc8": "Pacifique (UTC-8)",
+        "utc7": "Montagne (UTC-7)",
+        "utc6": "Centre (UTC-6)"
+      }
+    },
+    "notifications": {
+      "title": "Notifications",
+      "emailNotifications": {
+        "title": "Notifications par e-mail",
+        "description": "Recevez des mises à jour et des alertes par e-mail"
+      },
+      "pushNotifications": {
+        "title": "Notifications push",
+        "description": "Recevez des notifications instantanées dans votre navigateur"
+      },
+      "marketingEmails": {
+        "title": "E-mails marketing",
+        "description": "Recevez des nouvelles sur les nouvelles fonctionnalités et les mises à jour"
+      }
+    },
+    "privacy": {
+      "title": "Confidentialité et Sécurité",
+      "twoFactorAuth": {
+        "title": "Authentification à deux facteurs",
+        "description": "Ajoutez une couche de sécurité supplémentaire à votre compte"
+      },
+      "dataSharing": {
+        "title": "Partage de données",
+        "description": "Autorisez la collecte anonyme de données pour améliorer nos services"
+      },
+      "activityLog": {
+        "title": "Journal d'activité",
+        "description": "Gardez une trace de l'activité du compte"
+      }
+    },
+    "buttons": {
+      "save": "Enregistrer les modifications",
+      "reset": "Réinitialiser les paramètres"
+    },
+    "alerts": {
+      "success": "Paramètres enregistrés avec succès !",
+      "error": "Échec de l'enregistrement des paramètres. Veuillez réessayer."
+    }
+  },
+  "languages": {
+    "en": "Anglais",
+    "es": "Espagnol",
+    "fr": "Français"
+  }
+}

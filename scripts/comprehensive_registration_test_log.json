@@ -1,0 +1,168 @@
+{
+  "timestamp": "2024-12-08T10:16:29.533Z",
+  "totalTests": 10,
+  "successfulTests": 10,
+  "failedTests": 0,
+  "tests": [
+    {
+      "iteration": 1,
+      "registration": {
+        "success": true,
+        "userId": "52dcef6c-781a-4d70-9064-2338363ec3f7",
+        "email": "test_user_1733652989535@celestialsphere.com",
+        "password": "d20f0f010a74b60b00891072bca2e7f2",
+        "registeredAt": "2024-12-08T10:16:31.446Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "52dcef6c-781a-4d70-9064-2338363ec3f7",
+        "email": "test_user_1733652989535@celestialsphere.com",
+        "loginAt": "2024-12-08T10:16:32.611Z"
+      }
+    },
+    {
+      "iteration": 2,
+      "registration": {
+        "success": true,
+        "userId": "4fdc296c-f63f-4831-a08a-b631be18cf24",
+        "email": "test_user_1733652995621@celestialsphere.com",
+        "password": "541401de00d37bcf0a705a45c5fd0075",
+        "registeredAt": "2024-12-08T10:16:36.624Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "4fdc296c-f63f-4831-a08a-b631be18cf24",
+        "email": "test_user_1733652995621@celestialsphere.com",
+        "loginAt": "2024-12-08T10:16:37.628Z"
+      }
+    },
+    {
+      "iteration": 3,
+      "registration": {
+        "success": true,
+        "userId": "32f5ecb9-d2e4-4b7f-b51b-b840932cddb8",
+        "email": "test_user_1733653000640@celestialsphere.com",
+        "password": "a082513ca92fb9a3e362492fb526073e",
+        "registeredAt": "2024-12-08T10:16:41.644Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "32f5ecb9-d2e4-4b7f-b51b-b840932cddb8",
+        "email": "test_user_1733653000640@celestialsphere.com",
+        "loginAt": "2024-12-08T10:16:42.649Z"
+      }
+    },
+    {
+      "iteration": 4,
+      "registration": {
+        "success": true,
+        "userId": "9831b68e-671b-4bbb-83c9-a716f63b9a7f",
+        "email": "test_user_1733653005654@celestialsphere.com",
+        "password": "2cfaa5ec05a11456e894ff7ff581054d",
+        "registeredAt": "2024-12-08T10:16:46.664Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "9831b68e-671b-4bbb-83c9-a716f63b9a7f",
+        "email": "test_user_1733653005654@celestialsphere.com",
+        "loginAt": "2024-12-08T10:16:47.669Z"
+      }
+    },
+    {
+      "iteration": 5,
+      "registration": {
+        "success": true,
+        "userId": "37fd9e21-4d2d-4cb0-9a08-3a8662436964",
+        "email": "test_user_1733653010671@celestialsphere.com",
+        "password": "e54bc2b5b9efa6f08953009b015c0ecc",
+        "registeredAt": "2024-12-08T10:16:51.687Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "37fd9e21-4d2d-4cb0-9a08-3a8662436964",
+        "email": "test_user_1733653010671@celestialsphere.com",
+        "loginAt": "2024-12-08T10:16:52.688Z"
+      }
+    },
+    {
+      "iteration": 6,
+      "registration": {
+        "success": true,
+        "userId": "24f82a64-249c-4c11-ba36-383458d02675",
+        "email": "test_user_1733653015696@celestialsphere.com",
+        "password": "6972ddfb76c9f5cf94deb97a41537b13",
+        "registeredAt": "2024-12-08T10:16:56.704Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "24f82a64-249c-4c11-ba36-383458d02675",
+        "email": "test_user_1733653015696@celestialsphere.com",
+        "loginAt": "2024-12-08T10:16:57.708Z"
+      }
+    },
+    {
+      "iteration": 7,
+      "registration": {
+        "success": true,
+        "userId": "0df8895b-7006-460b-987a-8e9a9e9d7596",
+        "email": "test_user_1733653020709@celestialsphere.com",
+        "password": "bd818323eae6d6ec32206a025db61ca9",
+        "registeredAt": "2024-12-08T10:17:01.724Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "0df8895b-7006-460b-987a-8e9a9e9d7596",
+        "email": "test_user_1733653020709@celestialsphere.com",
+        "loginAt": "2024-12-08T10:17:02.728Z"
+      }
+    },
+    {
+      "iteration": 8,
+      "registration": {
+        "success": true,
+        "userId": "5c951842-679a-45da-b611-fe43a1bf6c58",
+        "email": "test_user_1733653025735@celestialsphere.com",
+        "password": "60aa0b74dd25508d4e41cbcbda727088",
+        "registeredAt": "2024-12-08T10:17:06.743Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "5c951842-679a-45da-b611-fe43a1bf6c58",
+        "email": "test_user_1733653025735@celestialsphere.com",
+        "loginAt": "2024-12-08T10:17:07.749Z"
+      }
+    },
+    {
+      "iteration": 9,
+      "registration": {
+        "success": true,
+        "userId": "57c884de-a048-46b3-a831-6afafb7cbe63",
+        "email": "test_user_1733653030752@celestialsphere.com",
+        "password": "b314d8d56a071202d280592e8325e6f1",
+        "registeredAt": "2024-12-08T10:17:11.763Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "57c884de-a048-46b3-a831-6afafb7cbe63",
+        "email": "test_user_1733653030752@celestialsphere.com",
+        "loginAt": "2024-12-08T10:17:12.768Z"
+      }
+    },
+    {
+      "iteration": 10,
+      "registration": {
+        "success": true,
+        "userId": "82192270-2626-476f-ac66-de0bcb502ceb",
+        "email": "test_user_1733653035778@celestialsphere.com",
+        "password": "387d58d8bac86227c1ca3b1074bdab21",
+        "registeredAt": "2024-12-08T10:17:16.785Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "82192270-2626-476f-ac66-de0bcb502ceb",
+        "email": "test_user_1733653035778@celestialsphere.com",
+        "loginAt": "2024-12-08T10:17:17.787Z"
+      }
+    }
+  ]
+}

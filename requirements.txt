@@ -1,0 +1,16 @@
+psycopg2-binary==2.9.9  # PostgreSQL adapter for Python
+SQLAlchemy==2.0.23     # SQL toolkit and ORM
+Flask==3.0.0           # Web framework
+Flask-SQLAlchemy==3.1.1  # Flask integration with SQLAlchemy
+Flask-Login==0.6.3     # User session management for Flask
+Flask-Migrate==4.0.5   # Database migrations
+Flask-WTF==1.2.1       # Form handling and validation
+Werkzeug==3.0.1        # Utilities for Flask, including password hashing
+python-dotenv==1.0.0   # Environment variable management
+Flask-Cors==4.0.0      # Handle Cross-Origin Resource Sharing
+Flask-Limiter==3.5.0   # Rate limiting
+sendgrid==6.10.0       # Email sending
+PyJWT==2.8.0          # JSON Web Tokens
+pytest==7.4.3         # Testing framework
+pytest-cov==4.1.0     # Test coverage
+black==23.11.0        # Code formatting

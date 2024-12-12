@@ -1,0 +1,188 @@
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-bottom: 2px solid #007ACC;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar button {
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.toolbar button:hover {
+    background-color: #005B99;
+    transform: translateY(-1px);
+}
+
+.toolbar .dropdown {
+    position: relative;
+}
+
+.toolbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.toolbar .dropdown-content button {
+    background-color: #f1f1f1;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin: 5px 0;
+    width: 100%;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+.toolbar .dropdown-content button:hover {
+    background-color: #e0e0e0;
+}
+
+.toolbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.tabs button:hover {
+    background-color: #0056b3;
+}
+
+.home-tab, .insert-tab {
+    margin-top: 10px;
+}
+
+.document-workspace {
+    display: grid;
+    grid-template-areas: "nav main" "footer footer";
+    grid-template-columns: 250px 1fr;
+    height: calc(100vh - 100px);
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation-pane {
+    grid-area: nav;
+    padding: 15px;
+    border-right: 1px solid #ccc;
+    background-color: #F4F4F4;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.navigation-pane ul li:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .toolbar {
+    background-color: #1e1e1e;
+    border-bottom: 2px solid #333;
+}
+
+body.dark-mode .navigation-pane {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .editor-text-area {
+    background-color: #2e2e2e;
+    color: #ffffff;
+}
+
+body.dark-mode .status-bar {
+    background-color: #1e1e1e;
+}
+
+.toolbar-and-toc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #007ACC;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table-of-contents {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table-of-contents h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.table-of-contents ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.table-of-contents ul li {
+    margin: 5px 0;
+}
+
+.table-of-contents ul li a {
+    text-decoration: none;
+    color: #007ACC;
+    transition: color 0.3s;
+}
+
+.table-of-contents ul li a:hover {
+    color: #005B99;
+    font-weight: bold;
+}
+
+.document {
+    width: 210mm; /* A4 width */
+    height: 297mm; /* A4 height */
+    margin: 80px auto 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    overflow: auto;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}

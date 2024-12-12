@@ -1,0 +1,818 @@
+{
+  "timestamp": "2024-12-08T11:15:56.757Z",
+  "totalTests": 30,
+  "successfulTests": 30,
+  "failedTests": 0,
+  "tests": [
+    {
+      "iteration": 1,
+      "registration": {
+        "success": true,
+        "userId": "efd9cdfb-e609-45fd-ac9e-dbf9e741815f",
+        "email": "aria.smith_1733656556758@celestialsphere.com",
+        "password": "681a08aa8ba2cbf863b133ea808a444d",
+        "metadata": {
+          "firstName": "Aria",
+          "lastName": "Smith",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656556758,
+          "testIteration": 0
+        },
+        "registeredAt": "2024-12-08T11:15:57.354Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "efd9cdfb-e609-45fd-ac9e-dbf9e741815f",
+        "email": "aria.smith_1733656556758@celestialsphere.com",
+        "loginAt": "2024-12-08T11:15:57.514Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:15:57.594Z"
+      }
+    },
+    {
+      "iteration": 2,
+      "registration": {
+        "success": true,
+        "userId": "ff3612ee-d533-401a-b4e9-5aaf910856ba",
+        "email": "zara.johnson_1733656559604@celestialsphere.com",
+        "password": "176fb54170607e8dfad9012c17f1b5a1",
+        "metadata": {
+          "firstName": "Zara",
+          "lastName": "Johnson",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656559604,
+          "testIteration": 1
+        },
+        "registeredAt": "2024-12-08T11:15:59.798Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "ff3612ee-d533-401a-b4e9-5aaf910856ba",
+        "email": "zara.johnson_1733656559604@celestialsphere.com",
+        "loginAt": "2024-12-08T11:15:59.967Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:00.026Z"
+      }
+    },
+    {
+      "iteration": 3,
+      "registration": {
+        "success": true,
+        "userId": "1c2b71c9-f73d-48e6-838e-4212bbb9ed45",
+        "email": "kai.williams_1733656562043@celestialsphere.com",
+        "password": "3c5b0d7e3c584636e72f56def7071145",
+        "metadata": {
+          "firstName": "Kai",
+          "lastName": "Williams",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656562043,
+          "testIteration": 2
+        },
+        "registeredAt": "2024-12-08T11:16:02.215Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "1c2b71c9-f73d-48e6-838e-4212bbb9ed45",
+        "email": "kai.williams_1733656562043@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:02.368Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:02.429Z"
+      }
+    },
+    {
+      "iteration": 4,
+      "registration": {
+        "success": true,
+        "userId": "33d7d144-8377-4c7a-875e-f07c434f2149",
+        "email": "luna.brown_1733656564438@celestialsphere.com",
+        "password": "a9da9d3ed2eaa609aec727a96ab7cdaa",
+        "metadata": {
+          "firstName": "Luna",
+          "lastName": "Brown",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656564438,
+          "testIteration": 3
+        },
+        "registeredAt": "2024-12-08T11:16:04.636Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "33d7d144-8377-4c7a-875e-f07c434f2149",
+        "email": "luna.brown_1733656564438@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:04.777Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:04.835Z"
+      }
+    },
+    {
+      "iteration": 5,
+      "registration": {
+        "success": true,
+        "userId": "d8175162-1e8a-48d6-a190-cb691d308040",
+        "email": "ethan.jones_1733656566843@celestialsphere.com",
+        "password": "804ee8b7a84a6b0ba7d62ecb523c72da",
+        "metadata": {
+          "firstName": "Ethan",
+          "lastName": "Jones",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656566843,
+          "testIteration": 4
+        },
+        "registeredAt": "2024-12-08T11:16:07.020Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "d8175162-1e8a-48d6-a190-cb691d308040",
+        "email": "ethan.jones_1733656566843@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:07.165Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:07.222Z"
+      }
+    },
+    {
+      "iteration": 6,
+      "registration": {
+        "success": true,
+        "userId": "0c3f1e32-4d82-49db-bc47-658c8931d53e",
+        "email": "sophia.garcia_1733656569234@celestialsphere.com",
+        "password": "b9c7740e3b96f61ef103205f05627a96",
+        "metadata": {
+          "firstName": "Sophia",
+          "lastName": "Garcia",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656569234,
+          "testIteration": 5
+        },
+        "registeredAt": "2024-12-08T11:16:09.424Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "0c3f1e32-4d82-49db-bc47-658c8931d53e",
+        "email": "sophia.garcia_1733656569234@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:09.560Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:09.615Z"
+      }
+    },
+    {
+      "iteration": 7,
+      "registration": {
+        "success": true,
+        "userId": "7bfc1bcc-fa65-469f-bc61-82cdfd2ae88d",
+        "email": "noah.miller_1733656571625@celestialsphere.com",
+        "password": "6d5e037dc27d2c12fe087429bee86025",
+        "metadata": {
+          "firstName": "Noah",
+          "lastName": "Miller",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656571625,
+          "testIteration": 6
+        },
+        "registeredAt": "2024-12-08T11:16:11.825Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "7bfc1bcc-fa65-469f-bc61-82cdfd2ae88d",
+        "email": "noah.miller_1733656571625@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:11.998Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:12.075Z"
+      }
+    },
+    {
+      "iteration": 8,
+      "registration": {
+        "success": true,
+        "userId": "cae704c1-441a-4430-92d0-ff9e0ad7729f",
+        "email": "emma.davis_1733656574080@celestialsphere.com",
+        "password": "47e7301ad7e6b9c150e25697cb186850",
+        "metadata": {
+          "firstName": "Emma",
+          "lastName": "Davis",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656574080,
+          "testIteration": 7
+        },
+        "registeredAt": "2024-12-08T11:16:14.287Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "cae704c1-441a-4430-92d0-ff9e0ad7729f",
+        "email": "emma.davis_1733656574080@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:14.434Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:14.493Z"
+      }
+    },
+    {
+      "iteration": 9,
+      "registration": {
+        "success": true,
+        "userId": "cf5a1e3f-c3b4-4616-b9fc-4c0404493352",
+        "email": "liam.rodriguez_1733656576505@celestialsphere.com",
+        "password": "7af7aa59e12387ecaffe3a09d63e8540",
+        "metadata": {
+          "firstName": "Liam",
+          "lastName": "Rodriguez",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656576505,
+          "testIteration": 8
+        },
+        "registeredAt": "2024-12-08T11:16:16.723Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "cf5a1e3f-c3b4-4616-b9fc-4c0404493352",
+        "email": "liam.rodriguez_1733656576505@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:16.879Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:16.936Z"
+      }
+    },
+    {
+      "iteration": 10,
+      "registration": {
+        "success": true,
+        "userId": "912e9531-5c9b-4976-bddd-6838cfaecee4",
+        "email": "olivia.martinez_1733656578946@celestialsphere.com",
+        "password": "28c5870d28d0f2f241ce69497e825366",
+        "metadata": {
+          "firstName": "Olivia",
+          "lastName": "Martinez",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656578946,
+          "testIteration": 9
+        },
+        "registeredAt": "2024-12-08T11:16:19.242Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "912e9531-5c9b-4976-bddd-6838cfaecee4",
+        "email": "olivia.martinez_1733656578946@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:19.385Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:19.444Z"
+      }
+    },
+    {
+      "iteration": 11,
+      "registration": {
+        "success": true,
+        "userId": "e2c35048-5c40-436b-b886-5f62229921f8",
+        "email": "mason.hernandez_1733656581456@celestialsphere.com",
+        "password": "513158972776bfffa2f12661160ef06f",
+        "metadata": {
+          "firstName": "Mason",
+          "lastName": "Hernandez",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656581456,
+          "testIteration": 10
+        },
+        "registeredAt": "2024-12-08T11:16:21.648Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "e2c35048-5c40-436b-b886-5f62229921f8",
+        "email": "mason.hernandez_1733656581456@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:21.789Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:21.843Z"
+      }
+    },
+    {
+      "iteration": 12,
+      "registration": {
+        "success": true,
+        "userId": "78e66fba-23d3-4b73-a3b5-697a1db2c3a7",
+        "email": "ava.lopez_1733656583857@celestialsphere.com",
+        "password": "7e65e75c0a5afbb0fa28c586f59ddb8a",
+        "metadata": {
+          "firstName": "Ava",
+          "lastName": "Lopez",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656583857,
+          "testIteration": 11
+        },
+        "registeredAt": "2024-12-08T11:16:24.039Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "78e66fba-23d3-4b73-a3b5-697a1db2c3a7",
+        "email": "ava.lopez_1733656583857@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:24.194Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:24.250Z"
+      }
+    },
+    {
+      "iteration": 13,
+      "registration": {
+        "success": true,
+        "userId": "23daa6db-7243-41db-93ce-dc40c5ab2771",
+        "email": "elijah.gonzalez_1733656586260@celestialsphere.com",
+        "password": "240649b2ce84c7933120da8435158e58",
+        "metadata": {
+          "firstName": "Elijah",
+          "lastName": "Gonzalez",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656586260,
+          "testIteration": 12
+        },
+        "registeredAt": "2024-12-08T11:16:26.450Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "23daa6db-7243-41db-93ce-dc40c5ab2771",
+        "email": "elijah.gonzalez_1733656586260@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:26.592Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:26.647Z"
+      }
+    },
+    {
+      "iteration": 14,
+      "registration": {
+        "success": true,
+        "userId": "c4cabdee-ce22-46a8-9412-9537f5eedb76",
+        "email": "isabella.wilson_1733656588649@celestialsphere.com",
+        "password": "2f77c62f429895de3cc70b2db0d39b3e",
+        "metadata": {
+          "firstName": "Isabella",
+          "lastName": "Wilson",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656588649,
+          "testIteration": 13
+        },
+        "registeredAt": "2024-12-08T11:16:28.872Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "c4cabdee-ce22-46a8-9412-9537f5eedb76",
+        "email": "isabella.wilson_1733656588649@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:29.022Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:29.074Z"
+      }
+    },
+    {
+      "iteration": 15,
+      "registration": {
+        "success": true,
+        "userId": "ce5119c0-db47-4e26-830b-7296045fec31",
+        "email": "james.anderson_1733656591077@celestialsphere.com",
+        "password": "d7a5a1fb2a4b92c34a6911b970ae3aa3",
+        "metadata": {
+          "firstName": "James",
+          "lastName": "Anderson",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656591077,
+          "testIteration": 14
+        },
+        "registeredAt": "2024-12-08T11:16:31.264Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "ce5119c0-db47-4e26-830b-7296045fec31",
+        "email": "james.anderson_1733656591077@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:31.411Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:31.484Z"
+      }
+    },
+    {
+      "iteration": 16,
+      "registration": {
+        "success": true,
+        "userId": "3b0ab2c9-11d4-44ab-836f-099cbb0e1941",
+        "email": "mia.taylor_1733656593488@celestialsphere.com",
+        "password": "659c5a46cb0d02172226ec20fb0aa611",
+        "metadata": {
+          "firstName": "Mia",
+          "lastName": "Taylor",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656593488,
+          "testIteration": 15
+        },
+        "registeredAt": "2024-12-08T11:16:33.667Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "3b0ab2c9-11d4-44ab-836f-099cbb0e1941",
+        "email": "mia.taylor_1733656593488@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:33.805Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:33.869Z"
+      }
+    },
+    {
+      "iteration": 17,
+      "registration": {
+        "success": true,
+        "userId": "eaf5ba82-d8b1-4f4d-80c8-8c4fafd9096f",
+        "email": "benjamin.moore_1733656595884@celestialsphere.com",
+        "password": "f883dd34fdc484a7a89b4576039d6c86",
+        "metadata": {
+          "firstName": "Benjamin",
+          "lastName": "Moore",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656595884,
+          "testIteration": 16
+        },
+        "registeredAt": "2024-12-08T11:16:36.069Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "eaf5ba82-d8b1-4f4d-80c8-8c4fafd9096f",
+        "email": "benjamin.moore_1733656595884@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:36.207Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:36.272Z"
+      }
+    },
+    {
+      "iteration": 18,
+      "registration": {
+        "success": true,
+        "userId": "60eb4462-d2ab-4921-a54d-7a445f7d94ba",
+        "email": "charlotte.jackson_1733656598286@celestialsphere.com",
+        "password": "f499b5e6eefe99663cbca472da49b572",
+        "metadata": {
+          "firstName": "Charlotte",
+          "lastName": "Jackson",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656598286,
+          "testIteration": 17
+        },
+        "registeredAt": "2024-12-08T11:16:38.490Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "60eb4462-d2ab-4921-a54d-7a445f7d94ba",
+        "email": "charlotte.jackson_1733656598286@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:38.642Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:38.696Z"
+      }
+    },
+    {
+      "iteration": 19,
+      "registration": {
+        "success": true,
+        "userId": "209b489c-7e29-4a3a-95b8-d25cabfdecf1",
+        "email": "lucas.martin_1733656600703@celestialsphere.com",
+        "password": "62246b659ba60148e1b65e829998f126",
+        "metadata": {
+          "firstName": "Lucas",
+          "lastName": "Martin",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656600703,
+          "testIteration": 18
+        },
+        "registeredAt": "2024-12-08T11:16:40.898Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "209b489c-7e29-4a3a-95b8-d25cabfdecf1",
+        "email": "lucas.martin_1733656600703@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:41.046Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:41.104Z"
+      }
+    },
+    {
+      "iteration": 20,
+      "registration": {
+        "success": true,
+        "userId": "48b8a5a7-9eb9-4cb6-a7a9-1d36081251d5",
+        "email": "amelia.lee_1733656603118@celestialsphere.com",
+        "password": "b16e2c12b629925cca4baa59538abe48",
+        "metadata": {
+          "firstName": "Amelia",
+          "lastName": "Lee",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656603118,
+          "testIteration": 19
+        },
+        "registeredAt": "2024-12-08T11:16:43.292Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "48b8a5a7-9eb9-4cb6-a7a9-1d36081251d5",
+        "email": "amelia.lee_1733656603118@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:43.434Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:43.496Z"
+      }
+    },
+    {
+      "iteration": 21,
+      "registration": {
+        "success": true,
+        "userId": "9c004f47-6a3e-4d8a-82b9-5569d15aa05e",
+        "email": "aria.smith_1733656605503@celestialsphere.com",
+        "password": "7212c29a4b6a9a7935be4fb0ea971075",
+        "metadata": {
+          "firstName": "Aria",
+          "lastName": "Smith",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656605503,
+          "testIteration": 20
+        },
+        "registeredAt": "2024-12-08T11:16:45.713Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "9c004f47-6a3e-4d8a-82b9-5569d15aa05e",
+        "email": "aria.smith_1733656605503@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:45.858Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:45.921Z"
+      }
+    },
+    {
+      "iteration": 22,
+      "registration": {
+        "success": true,
+        "userId": "b3f45fa1-6516-4d03-ab98-cf380673663f",
+        "email": "zara.johnson_1733656607933@celestialsphere.com",
+        "password": "07b1496c75240e7f8662d7a6161fe6a1",
+        "metadata": {
+          "firstName": "Zara",
+          "lastName": "Johnson",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656607933,
+          "testIteration": 21
+        },
+        "registeredAt": "2024-12-08T11:16:48.115Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "b3f45fa1-6516-4d03-ab98-cf380673663f",
+        "email": "zara.johnson_1733656607933@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:48.258Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:48.314Z"
+      }
+    },
+    {
+      "iteration": 23,
+      "registration": {
+        "success": true,
+        "userId": "eedbb154-a276-4932-ae2b-2796f94682af",
+        "email": "kai.williams_1733656610331@celestialsphere.com",
+        "password": "811f76e83b971a92adb4d5f8997ddc88",
+        "metadata": {
+          "firstName": "Kai",
+          "lastName": "Williams",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656610331,
+          "testIteration": 22
+        },
+        "registeredAt": "2024-12-08T11:16:50.519Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "eedbb154-a276-4932-ae2b-2796f94682af",
+        "email": "kai.williams_1733656610331@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:50.670Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:50.735Z"
+      }
+    },
+    {
+      "iteration": 24,
+      "registration": {
+        "success": true,
+        "userId": "04d9004a-81ac-4595-af1d-f6865983ca74",
+        "email": "luna.brown_1733656612736@celestialsphere.com",
+        "password": "1bd1f708a5c48f41191d9e90e09b694e",
+        "metadata": {
+          "firstName": "Luna",
+          "lastName": "Brown",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656612736,
+          "testIteration": 23
+        },
+        "registeredAt": "2024-12-08T11:16:52.921Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "04d9004a-81ac-4595-af1d-f6865983ca74",
+        "email": "luna.brown_1733656612736@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:53.064Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:53.124Z"
+      }
+    },
+    {
+      "iteration": 25,
+      "registration": {
+        "success": true,
+        "userId": "371992d4-edb7-425c-adf7-ac2f1de3ff32",
+        "email": "ethan.jones_1733656615128@celestialsphere.com",
+        "password": "c1c514d09646a6c5d2d68f00ebfd3a9a",
+        "metadata": {
+          "firstName": "Ethan",
+          "lastName": "Jones",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656615128,
+          "testIteration": 24
+        },
+        "registeredAt": "2024-12-08T11:16:55.329Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "371992d4-edb7-425c-adf7-ac2f1de3ff32",
+        "email": "ethan.jones_1733656615128@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:55.473Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:55.534Z"
+      }
+    },
+    {
+      "iteration": 26,
+      "registration": {
+        "success": true,
+        "userId": "7f786e0c-cd81-4744-8301-4583d2397597",
+        "email": "sophia.garcia_1733656617548@celestialsphere.com",
+        "password": "f9ba16058b48bddd4eb048c899532c14",
+        "metadata": {
+          "firstName": "Sophia",
+          "lastName": "Garcia",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656617548,
+          "testIteration": 25
+        },
+        "registeredAt": "2024-12-08T11:16:57.736Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "7f786e0c-cd81-4744-8301-4583d2397597",
+        "email": "sophia.garcia_1733656617548@celestialsphere.com",
+        "loginAt": "2024-12-08T11:16:57.881Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:16:57.948Z"
+      }
+    },
+    {
+      "iteration": 27,
+      "registration": {
+        "success": true,
+        "userId": "93e51891-fbdb-406b-8a75-9575f3f7405c",
+        "email": "noah.miller_1733656619957@celestialsphere.com",
+        "password": "95d0523ee1c4c53b1d56d65e35ca2443",
+        "metadata": {
+          "firstName": "Noah",
+          "lastName": "Miller",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656619957,
+          "testIteration": 26
+        },
+        "registeredAt": "2024-12-08T11:17:00.161Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "93e51891-fbdb-406b-8a75-9575f3f7405c",
+        "email": "noah.miller_1733656619957@celestialsphere.com",
+        "loginAt": "2024-12-08T11:17:00.320Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:17:00.386Z"
+      }
+    },
+    {
+      "iteration": 28,
+      "registration": {
+        "success": true,
+        "userId": "9db1d957-d894-4ca1-be46-b7528f561a23",
+        "email": "emma.davis_1733656622396@celestialsphere.com",
+        "password": "522b9dc5c102cc2b24cf0ebafdfec9b8",
+        "metadata": {
+          "firstName": "Emma",
+          "lastName": "Davis",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656622396,
+          "testIteration": 27
+        },
+        "registeredAt": "2024-12-08T11:17:02.847Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "9db1d957-d894-4ca1-be46-b7528f561a23",
+        "email": "emma.davis_1733656622396@celestialsphere.com",
+        "loginAt": "2024-12-08T11:17:02.994Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:17:03.063Z"
+      }
+    },
+    {
+      "iteration": 29,
+      "registration": {
+        "success": true,
+        "userId": "fef3c4c4-ff81-47d1-986d-ef223d01e9b8",
+        "email": "liam.rodriguez_1733656625072@celestialsphere.com",
+        "password": "e0b5d4526f51beb0361d1c76e4930196",
+        "metadata": {
+          "firstName": "Liam",
+          "lastName": "Rodriguez",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656625072,
+          "testIteration": 28
+        },
+        "registeredAt": "2024-12-08T11:17:05.269Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "fef3c4c4-ff81-47d1-986d-ef223d01e9b8",
+        "email": "liam.rodriguez_1733656625072@celestialsphere.com",
+        "loginAt": "2024-12-08T11:17:05.420Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:17:05.477Z"
+      }
+    },
+    {
+      "iteration": 30,
+      "registration": {
+        "success": true,
+        "userId": "86312131-2996-4b5b-ad8b-586fc8393a8f",
+        "email": "olivia.martinez_1733656627488@celestialsphere.com",
+        "password": "999b33112ae562e709977094b81645a4",
+        "metadata": {
+          "firstName": "Olivia",
+          "lastName": "Martinez",
+          "source": "comprehensive_user_test",
+          "testTimestamp": 1733656627488,
+          "testIteration": 29
+        },
+        "registeredAt": "2024-12-08T11:17:07.671Z"
+      },
+      "login": {
+        "success": true,
+        "userId": "86312131-2996-4b5b-ad8b-586fc8393a8f",
+        "email": "olivia.martinez_1733656627488@celestialsphere.com",
+        "loginAt": "2024-12-08T11:17:07.828Z"
+      },
+      "deletion": {
+        "success": true,
+        "deletedAt": "2024-12-08T11:17:07.884Z"
+      }
+    }
+  ]
+}

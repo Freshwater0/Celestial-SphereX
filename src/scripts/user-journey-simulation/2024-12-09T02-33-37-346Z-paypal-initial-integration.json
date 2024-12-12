@@ -1,0 +1,23 @@
+{
+  "webhookPayload": {
+    "event_type": "PAYMENT.ORDER.CREATED",
+    "resource": {
+      "id": "082810dc8f7214c1b1b6ec23f49791b5",
+      "intent": "CAPTURE",
+      "purchase_units": [
+        {
+          "amount": {
+            "currency_code": "USD",
+            "value": "299.99"
+          }
+        }
+      ],
+      "create_time": "2024-12-09T02:33:37.346Z"
+    }
+  },
+  "subscriptionDetails": {
+    "amount": 299.99,
+    "plan": "Enterprise Research Analytics Tier",
+    "paypalOrderId": "082810dc8f7214c1b1b6ec23f49791b5"
+  }
+}

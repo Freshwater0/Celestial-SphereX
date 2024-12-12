@@ -1,0 +1,72 @@
+{
+  "settings": {
+    "title": "设置",
+    "appearance": {
+      "title": "外观",
+      "theme": {
+        "title": "主题模式",
+        "description": "选择浅色或深色主题",
+        "light": "浅色",
+        "dark": "深色"
+      },
+      "language": {
+        "title": "语言",
+        "description": "选择您偏好的语言"
+      },
+      "timezone": {
+        "title": "时区",
+        "description": "选择您的时区",
+        "label": "时区",
+        "utc8": "太平洋时间 (UTC-8)",
+        "utc7": "山地时间 (UTC-7)",
+        "utc6": "中部时间 (UTC-6)"
+      }
+    },
+    "notifications": {
+      "title": "通知",
+      "emailNotifications": {
+        "title": "电子邮件通知",
+        "description": "通过电子邮件接收更新和提醒"
+      },
+      "pushNotifications": {
+        "title": "推送通知",
+        "description": "在浏览器中接收即时通知"
+      },
+      "marketingEmails": {
+        "title": "营销邮件",
+        "description": "接收新功能和更新的相关消息"
+      }
+    },
+    "privacy": {
+      "title": "隐私与安全",
+      "twoFactorAuth": {
+        "title": "双重认证",
+        "description": "为您的账户添加额外的安全层"
+      },
+      "dataSharing": {
+        "title": "数据共享",
+        "description": "允许匿名数据收集以改进我们的服务"
+      },
+      "activityLog": {
+        "title": "活动日志",
+        "description": "跟踪账户活动"
+      }
+    },
+    "buttons": {
+      "save": "保存更改",
+      "reset": "重置为默认值"
+    },
+    "alerts": {
+      "success": "设置保存成功！",
+      "error": "保存设置失败。请重试。"
+    }
+  },
+  "languages": {
+    "en": "英语",
+    "es": "西班牙语",
+    "fr": "法语",
+    "de": "德语",
+    "zh": "中文",
+    "ko": "韩语"
+  }
+}

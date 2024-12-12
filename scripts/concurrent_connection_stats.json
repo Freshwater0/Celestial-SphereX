@@ -1,0 +1,10 @@
+{
+  "totalQueries": 123800,
+  "successfulQueries": 123800,
+  "failedQueries": 0,
+  "successRate": 100,
+  "avgQueryTime": 341.9662197092084,
+  "maxQueryTime": 20560,
+  "minQueryTime": 166,
+  "failureReasons": []
+}

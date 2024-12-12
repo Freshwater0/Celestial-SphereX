@@ -1,0 +1,12 @@
+Dear {{ user.first_name }},
+
+Thank you for registering with Celestial Sphere. Please click the link below to verify your email address:
+
+{{ url_for('auth.verify_email', token=token, _external=True) }}
+
+This link will expire in 48 hours.
+
+If you did not create an account, please ignore this email.
+
+Best regards,
+The Celestial Sphere Team

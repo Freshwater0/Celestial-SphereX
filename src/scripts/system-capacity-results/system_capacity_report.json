@@ -1,0 +1,732 @@
+{
+  "timestamp": "2024-12-10T01:09:32.540Z",
+  "performanceThresholds": {
+    "maxResponseTime": 500,
+    "successRateThreshold": 0.95,
+    "cpuUsageThreshold": 80,
+    "memoryUsageThreshold": 0.8
+  },
+  "capacityResults": [
+    {
+      "concurrentUsers": 100,
+      "totalProcessingTime": 58.95949999999999,
+      "averageProcessingTime": 56.95263499999997,
+      "minProcessingTime": 56.7559,
+      "maxProcessingTime": 57.04060000000001,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 0,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 0,
+          "system": 0
+        },
+        "memoryUsageBefore": 4940192,
+        "memoryUsageAfter": 4815536,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 200,
+      "totalProcessingTime": 122.79580000000001,
+      "averageProcessingTime": 60.31702599999996,
+      "minProcessingTime": 59.29869999999997,
+      "maxProcessingTime": 61.46840000000003,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 0,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 15000,
+          "system": 0
+        },
+        "memoryUsageBefore": 4840872,
+        "memoryUsageAfter": 5092488,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 300,
+      "totalProcessingTime": 201.76860000000005,
+      "averageProcessingTime": 65.01808900000002,
+      "minProcessingTime": 62.123400000000004,
+      "maxProcessingTime": 70.39510000000001,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 15000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 31000,
+          "system": 0
+        },
+        "memoryUsageBefore": 5127880,
+        "memoryUsageAfter": 5358192,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 400,
+      "totalProcessingTime": 247.87260000000003,
+      "averageProcessingTime": 60.53355725000004,
+      "minProcessingTime": 55.76380000000006,
+      "maxProcessingTime": 62.433400000000006,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 31000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 31000,
+          "system": 0
+        },
+        "memoryUsageBefore": 5398544,
+        "memoryUsageAfter": 5895632,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 500,
+      "totalProcessingTime": 308.48079999999993,
+      "averageProcessingTime": 60.49189719999997,
+      "minProcessingTime": 55.30149999999992,
+      "maxProcessingTime": 62.75630000000001,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 31000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 31000,
+          "system": 0
+        },
+        "memoryUsageBefore": 5948784,
+        "memoryUsageAfter": 5852960,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 600,
+      "totalProcessingTime": 371.58719999999994,
+      "averageProcessingTime": 60.908396833333285,
+      "minProcessingTime": 57.261200000000144,
+      "maxProcessingTime": 63.75839999999994,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 31000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 31000,
+          "system": 0
+        },
+        "memoryUsageBefore": 5950584,
+        "memoryUsageAfter": 6103808,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 700,
+      "totalProcessingTime": 435.2470999999998,
+      "averageProcessingTime": 61.46668800000003,
+      "minProcessingTime": 57.244899999999916,
+      "maxProcessingTime": 62.800199999999904,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 31000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 46000,
+          "system": 0
+        },
+        "memoryUsageBefore": 6178784,
+        "memoryUsageAfter": 6329688,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 800,
+      "totalProcessingTime": 495.1367,
+      "averageProcessingTime": 60.973900624999985,
+      "minProcessingTime": 55.74130000000014,
+      "maxProcessingTime": 63.31970000000001,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 46000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 78000,
+          "system": 0
+        },
+        "memoryUsageBefore": 6414008,
+        "memoryUsageAfter": 7040088,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 900,
+      "totalProcessingTime": 558.3225000000002,
+      "averageProcessingTime": 61.33409499999997,
+      "minProcessingTime": 55.60849999999982,
+      "maxProcessingTime": 62.99590000000035,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 78000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 78000,
+          "system": 0
+        },
+        "memoryUsageBefore": 7148112,
+        "memoryUsageAfter": 6686848,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 1000,
+      "totalProcessingTime": 623.6082000000001,
+      "averageProcessingTime": 61.83219650000006,
+      "minProcessingTime": 56.50030000000015,
+      "maxProcessingTime": 63.68809999999985,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 78000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 78000,
+          "system": 0
+        },
+        "memoryUsageBefore": 6801040,
+        "memoryUsageAfter": 9187616,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 1100,
+      "totalProcessingTime": 679.3452000000002,
+      "averageProcessingTime": 61.174538090909,
+      "minProcessingTime": 56.645800000000236,
+      "maxProcessingTime": 62.784400000000005,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 78000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 78000,
+          "system": 0
+        },
+        "memoryUsageBefore": 9305472,
+        "memoryUsageAfter": 8796664,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 1200,
+      "totalProcessingTime": 761.5084999999999,
+      "averageProcessingTime": 62.82403766666664,
+      "minProcessingTime": 54.97600000000057,
+      "maxProcessingTime": 82.03690000000006,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 78000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 93000,
+          "system": 0
+        },
+        "memoryUsageBefore": 8925928,
+        "memoryUsageAfter": 8705128,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 1300,
+      "totalProcessingTime": 811.8851000000004,
+      "averageProcessingTime": 62.00384361538462,
+      "minProcessingTime": 56.88980000000083,
+      "maxProcessingTime": 64.26080000000002,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 93000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 93000,
+          "system": 0
+        },
+        "memoryUsageBefore": 8845248,
+        "memoryUsageAfter": 8761936,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 1400,
+      "totalProcessingTime": 869.7197999999999,
+      "averageProcessingTime": 61.534338857142764,
+      "minProcessingTime": 53.86660000000029,
+      "maxProcessingTime": 63.29100000000017,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 93000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 93000,
+          "system": 0
+        },
+        "memoryUsageBefore": 8913256,
+        "memoryUsageAfter": 8976864,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 1500,
+      "totalProcessingTime": 921.3161999999993,
+      "averageProcessingTime": 60.89640513333327,
+      "minProcessingTime": 54.434400000000096,
+      "maxProcessingTime": 62.20379999999932,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 93000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 93000,
+          "system": 0
+        },
+        "memoryUsageBefore": 9139384,
+        "memoryUsageAfter": 9786200,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 1600,
+      "totalProcessingTime": 994.3662999999997,
+      "averageProcessingTime": 61.554848375,
+      "minProcessingTime": 54.317699999999604,
+      "maxProcessingTime": 63.761899999999514,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 93000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 93000,
+          "system": 0
+        },
+        "memoryUsageBefore": 9959928,
+        "memoryUsageAfter": 6013928,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 1700,
+      "totalProcessingTime": 1055.5249000000003,
+      "averageProcessingTime": 61.46746511764716,
+      "minProcessingTime": 52.24159999999938,
+      "maxProcessingTime": 63.82339999999931,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 93000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 93000,
+          "system": 0
+        },
+        "memoryUsageBefore": 6200704,
+        "memoryUsageAfter": 5969304,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 1800,
+      "totalProcessingTime": 1115.775599999999,
+      "averageProcessingTime": 61.46951133333326,
+      "minProcessingTime": 54.14650000000074,
+      "maxProcessingTime": 63.96910000000025,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 93000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 93000,
+          "system": 0
+        },
+        "memoryUsageBefore": 6167288,
+        "memoryUsageAfter": 6830992,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 1900,
+      "totalProcessingTime": 1178.7623000000003,
+      "averageProcessingTime": 61.60357247368414,
+      "minProcessingTime": 54.44909999999982,
+      "maxProcessingTime": 63.41870000000017,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 93000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 93000,
+          "system": 0
+        },
+        "memoryUsageBefore": 7038664,
+        "memoryUsageAfter": 9237336,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 2000,
+      "totalProcessingTime": 1245.475699999999,
+      "averageProcessingTime": 61.7511235,
+      "minProcessingTime": 52.64259999999922,
+      "maxProcessingTime": 64.23840000000018,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 93000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 93000,
+          "system": 0
+        },
+        "memoryUsageBefore": 9455824,
+        "memoryUsageAfter": 8727040,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 2100,
+      "totalProcessingTime": 1300.646999999999,
+      "averageProcessingTime": 61.37622628571441,
+      "minProcessingTime": 53.19770000000062,
+      "maxProcessingTime": 63.32099999999991,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 93000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 93000,
+          "system": 0
+        },
+        "memoryUsageBefore": 8956744,
+        "memoryUsageAfter": 9040048,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 2200,
+      "totalProcessingTime": 1365.4063000000006,
+      "averageProcessingTime": 61.64720295454548,
+      "minProcessingTime": 56.280800000000454,
+      "maxProcessingTime": 63.839599999999336,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 93000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 109000,
+          "system": 0
+        },
+        "memoryUsageBefore": 9280960,
+        "memoryUsageAfter": 7815536,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 2300,
+      "totalProcessingTime": 1425.1005999999998,
+      "averageProcessingTime": 61.51456647826087,
+      "minProcessingTime": 53.17269999999917,
+      "maxProcessingTime": 69.88409999999931,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 109000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 109000,
+          "system": 0
+        },
+        "memoryUsageBefore": 8073624,
+        "memoryUsageAfter": 8011312,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 2400,
+      "totalProcessingTime": 1494.8186000000023,
+      "averageProcessingTime": 61.85017229166684,
+      "minProcessingTime": 51.953999999997905,
+      "maxProcessingTime": 64.91709999999875,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 109000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 109000,
+          "system": 0
+        },
+        "memoryUsageBefore": 8276504,
+        "memoryUsageAfter": 8391696,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 2500,
+      "totalProcessingTime": 1554.8207000000002,
+      "averageProcessingTime": 61.791646440000214,
+      "minProcessingTime": 53.65929999999935,
+      "maxProcessingTime": 63.52419999999984,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 109000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 109000,
+          "system": 0
+        },
+        "memoryUsageBefore": 8684136,
+        "memoryUsageAfter": 8758056,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 2600,
+      "totalProcessingTime": 1609.0407999999989,
+      "averageProcessingTime": 61.49859865384633,
+      "minProcessingTime": 53.92849999999817,
+      "maxProcessingTime": 63.7980000000025,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 109000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 109000,
+          "system": 0
+        },
+        "memoryUsageBefore": 9043768,
+        "memoryUsageAfter": 9432664,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 2700,
+      "totalProcessingTime": 1687.1965000000018,
+      "averageProcessingTime": 62.05422551851856,
+      "minProcessingTime": 52.951099999998405,
+      "maxProcessingTime": 75.72620000000097,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 109000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 109000,
+          "system": 0
+        },
+        "memoryUsageBefore": 9729576,
+        "memoryUsageAfter": 10213184,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 2800,
+      "totalProcessingTime": 1754.1124999999993,
+      "averageProcessingTime": 62.06489496428594,
+      "minProcessingTime": 60.21689999999944,
+      "maxProcessingTime": 63.949899999999616,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 109000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 109000,
+          "system": 0
+        },
+        "memoryUsageBefore": 10540104,
+        "memoryUsageAfter": 10411560,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 2900,
+      "totalProcessingTime": 1817.2441,
+      "averageProcessingTime": 62.20084562068982,
+      "minProcessingTime": 50.25200000000041,
+      "maxProcessingTime": 75.50950000000012,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 109000,
+          "system": 0
+        },
+        "cpuUsageAfter": {
+          "user": 109000,
+          "system": 15000
+        },
+        "memoryUsageBefore": 10730872,
+        "memoryUsageAfter": 10614896,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "concurrentUsers": 3000,
+      "totalProcessingTime": 1881.6387000000032,
+      "averageProcessingTime": 62.189775933333614,
+      "minProcessingTime": 60.13060000000041,
+      "maxProcessingTime": 63.66060000000289,
+      "resourceUtilization": {
+        "cpuUsageBefore": {
+          "user": 109000,
+          "system": 15000
+        },
+        "cpuUsageAfter": {
+          "user": 109000,
+          "system": 15000
+        },
+        "memoryUsageBefore": 10949280,
+        "memoryUsageAfter": 17939464,
+        "systemLoadAvg": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "recommendedMaxConcurrentUsers": 3000
+}

@@ -1,0 +1,87 @@
+{
+  "settings": {
+    "title": "Settings",
+    "appearance": {
+      "title": "Appearance",
+      "theme": {
+        "title": "Theme Mode",
+        "description": "Choose between light and dark themes",
+        "light": "Light",
+        "dark": "Dark"
+      },
+      "language": {
+        "title": "Language",
+        "description": "Choose your preferred language"
+      },
+      "timezone": {
+        "title": "Time Zone",
+        "description": "Choose your preferred time zone for accurate time display",
+        "current": "Current Time",
+        "systemTime": "Your local time",
+        "search": "Search time zones",
+        "regions": {
+          "Africa": "Africa",
+          "America": "Americas",
+          "Asia": "Asia",
+          "Atlantic": "Atlantic",
+          "Australia": "Australia",
+          "Europe": "Europe",
+          "Indian": "Indian",
+          "Pacific": "Pacific",
+          "Etc": "Other"
+        },
+        "offset": "UTC Offset",
+        "abbreviation": "Abbreviation"
+      }
+    },
+    "notifications": {
+      "title": "Notifications",
+      "emailNotifications": {
+        "title": "Email Notifications",
+        "description": "Receive updates and alerts via email"
+      },
+      "pushNotifications": {
+        "title": "Push Notifications",
+        "description": "Receive instant notifications in your browser"
+      },
+      "marketingEmails": {
+        "title": "Marketing Emails",
+        "description": "Receive news about new features and updates"
+      }
+    },
+    "privacy": {
+      "title": "Privacy & Security",
+      "twoFactorAuth": {
+        "title": "Two-Factor Authentication",
+        "description": "Add an extra layer of security to your account"
+      },
+      "dataSharing": {
+        "title": "Data Sharing",
+        "description": "Allow anonymous data collection to improve our services"
+      },
+      "activityLog": {
+        "title": "Activity Log",
+        "description": "Track account activity"
+      }
+    },
+    "buttons": {
+      "save": "Save Changes",
+      "reset": "Reset to Defaults"
+    },
+    "alerts": {
+      "success": "Settings saved successfully!",
+      "error": "Failed to save settings. Please try again."
+    }
+  },
+  "languages": {
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "de": "German",
+    "zh": "Chinese",
+    "ko": "Korean",
+    "ar": "Arabic",
+    "hi": "Hindi",
+    "pt": "Portuguese"
+  }
+}

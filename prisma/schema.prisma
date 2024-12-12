@@ -1,0 +1,282 @@
+// Celestial Sphere Database Schema
+// Optimized for Scalability and Performance
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Enhanced User Model with Comprehensive Authentication
+model User {
+  id                       String    @id @default(cuid())
+  username                 String    @unique
+  email                    String    @unique
+  password                 String
+  role                     UserRole  @default(USER)
+  
+  // Authentication & Security
+  is_verified              Boolean   @default(false)
+  verification_token       String?
+  verification_token_expiry DateTime?
+  password_reset_token     String?
+  password_reset_expiry    DateTime?
+  
+  // Login Security
+  failed_login_attempts    Int       @default(0)
+  account_locked           Boolean   @default(false)
+  lock_expires_at          DateTime?
+  
+  // Timestamps
+  last_login_at            DateTime?
+  created_at               DateTime  @default(now())
+  updated_at               DateTime  @updatedAt
+  
+  // Relations
+  profile                  Profile?
+  settings                 Settings?
+  sessions                 Session[]
+  widgets                  Widget[]
+  notifications            Notification[]
+  crypto_watchlists        CryptoWatchlist[]
+  activity_logs            ActivityLog[]
+  api_usages               ApiUsage[]
+  subscriptions            Subscription[]
+  reports                  Report[]
+}
+
+// Detailed User Profile
+model Profile {
+  id                       String    @id @default(cuid())
+  user_id                  String    @unique
+  user                     User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  
+  // Profile Details
+  first_name               String?
+  last_name                String?
+  avatar                   String?
+  bio                      String?
+  location                 String?
+  
+  // Preferences
+  theme                    String    @default("light")
+  language                 String    @default("en")
+  timezone                 String    @default("UTC")
+  
+  created_at               DateTime  @default(now())
+  updated_at               DateTime  @updatedAt
+}
+
+// User Settings and Preferences
+model Settings {
+  id                       String    @id @default(cuid())
+  user_id                  String    @unique
+  user                     User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  
+  // Notification Preferences
+  email_notifications      Boolean   @default(true)
+  push_notifications       Boolean   @default(true)
+  sms_notifications        Boolean   @default(false)
+  
+  // Security Settings
+  two_factor_enabled       Boolean   @default(false)
+  login_alerts             Boolean   @default(true)
+  
+  // Dashboard Customization
+  dashboard_layout         Json?
+  
+  created_at               DateTime  @default(now())
+  updated_at               DateTime  @updatedAt
+}
+
+// Session Management
+model Session {
+  id                       String    @id @default(cuid())
+  user_id                  String
+  user                     User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  
+  token                    String    @unique
+  device_info              Json?
+  ip_address               String?
+  user_agent               String?
+  
+  is_active                Boolean   @default(true)
+  expires_at               DateTime
+  last_active              DateTime  @default(now())
+  
+  created_at               DateTime  @default(now())
+  updated_at               DateTime  @updatedAt
+}
+
+// Customizable Widgets
+model Widget {
+  id                       String    @id @default(cuid())
+  user_id                  String
+  user                     User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  
+  widget_type              String
+  name                     String
+  config                   Json?
+  
+  position_x               Int       @default(0)
+  position_y               Int       @default(0)
+  width                    Int       @default(4)
+  height                   Int       @default(4)
+  
+  active                   Boolean   @default(true)
+  
+  created_at               DateTime  @default(now())
+  updated_at               DateTime  @updatedAt
+}
+
+// Cryptocurrency Watchlist
+model CryptoWatchlist {
+  id                       String    @id @default(cuid())
+  user_id                  String
+  user                     User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  
+  symbol                   String
+  is_favorite              Boolean   @default(false)
+  
+  alert_price_high         Float?
+  alert_price_low          Float?
+  alert_percent_change     Float?
+  
+  last_price               Float?
+  last_updated             DateTime?
+  
+  notes                    String?
+  settings                 Json?
+  
+  created_at               DateTime  @default(now())
+  updated_at               DateTime  @updatedAt
+}
+
+// Notifications System
+model Notification {
+  id                       String    @id @default(cuid())
+  user_id                  String
+  user                     User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  
+  type                     NotificationType
+  title                    String
+  message                  String
+  
+  read                     Boolean   @default(false)
+  priority                 NotificationPriority @default(NORMAL)
+  
+  data                     Json?
+  
+  created_at               DateTime  @default(now())
+  updated_at               DateTime  @updatedAt
+}
+
+// Activity Logging
+model ActivityLog {
+  id                       String    @id @default(cuid())
+  user_id                  String
+  user                     User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  
+  activity_type            String
+  entity_type              String?
+  entity_id                String?
+  
+  metadata                 Json?
+  ip_address               String?
+  user_agent               String?
+  status                   String?
+  
+  created_at               DateTime  @default(now())
+}
+
+// API Usage Tracking
+model ApiUsage {
+  id                       String    @id @default(cuid())
+  user_id                  String
+  user                     User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  
+  endpoint                 String
+  method                   String
+  status_code              Int
+  
+  response_time            Float
+  ip_address               String?
+  user_agent               String?
+  
+  request_body             Json?
+  response_body            Json?
+  error                    String?
+  
+  rate_limited             Boolean   @default(false)
+  
+  created_at               DateTime  @default(now())
+}
+
+// Subscription Management
+model Subscription {
+  id                       String    @id @default(cuid())
+  user_id                  String
+  user                     User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  
+  status                   SubscriptionStatus @default(INACTIVE)
+  
+  trial_start_date         DateTime?
+  trial_end_date           DateTime?
+  
+  subscription_start_date  DateTime?
+  subscription_end_date    DateTime?
+  
+  stripe_customer_id       String?
+  stripe_subscription_id   String?
+  
+  created_at               DateTime  @default(now())
+  updated_at               DateTime  @updatedAt
+}
+
+// Reporting and Analytics
+model Report {
+  id                       String    @id @default(cuid())
+  user_id                  String
+  user                     User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  
+  name                     String
+  content                  Json
+  
+  created_at               DateTime  @default(now())
+  updated_at               DateTime  @updatedAt
+}
+
+// Enums for Type Safety
+enum UserRole {
+  USER
+  ADMIN
+  MODERATOR
+  ANALYST
+}
+
+enum NotificationType {
+  SYSTEM
+  PRICE_ALERT
+  TRADING
+  SECURITY
+  ACCOUNT
+}
+
+enum NotificationPriority {
+  LOW
+  NORMAL
+  HIGH
+  CRITICAL
+}
+
+enum SubscriptionStatus {
+  INACTIVE
+  TRIAL
+  ACTIVE
+  PAST_DUE
+  CANCELED
+  SUSPENDED
+}

@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Pheonix28##",
+    "database": "celestial",
+    "host": "127.0.0.1",
+    "port": 5555,
+    "dialect": "postgres",
+    "logging": true
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Pheonix28##",
+    "database": "celestial_test",
+    "host": "127.0.0.1",
+    "port": 5555,
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "postgres",
+    "password": "Pheonix28##",
+    "database": "celestial_prod",
+    "host": "127.0.0.1",
+    "port": 5555,
+    "dialect": "postgres",
+    "logging": false
+  }
+}

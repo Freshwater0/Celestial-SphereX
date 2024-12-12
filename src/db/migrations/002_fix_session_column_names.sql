@@ -1,0 +1,3 @@
+-- No changes needed as the database schema already uses snake_case
+-- This file exists to document that we verified the schema is correct
+-- The issue was in the Sequelize model not matching the database schema

@@ -1,0 +1,21 @@
+.ruler {
+    position: relative;
+}
+
+.horizontal-ruler {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.vertical-ruler {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    border-left: 1px solid #ccc;
+    height: 100%;
+}

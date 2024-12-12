@@ -1,0 +1,72 @@
+{
+  "settings": {
+    "title": "Einstellungen",
+    "appearance": {
+      "title": "Erscheinungsbild",
+      "theme": {
+        "title": "Design-Modus",
+        "description": "Wählen Sie zwischen hellem und dunklem Design",
+        "light": "Hell",
+        "dark": "Dunkel"
+      },
+      "language": {
+        "title": "Sprache",
+        "description": "Wählen Sie Ihre bevorzugte Sprache"
+      },
+      "timezone": {
+        "title": "Zeitzone",
+        "description": "Wählen Sie Ihre Zeitzone",
+        "label": "Zeitzone",
+        "utc8": "Pazifik (UTC-8)",
+        "utc7": "Mountain (UTC-7)",
+        "utc6": "Zentral (UTC-6)"
+      }
+    },
+    "notifications": {
+      "title": "Benachrichtigungen",
+      "emailNotifications": {
+        "title": "E-Mail-Benachrichtigungen",
+        "description": "Erhalten Sie Updates und Warnungen per E-Mail"
+      },
+      "pushNotifications": {
+        "title": "Push-Benachrichtigungen",
+        "description": "Erhalten Sie sofortige Benachrichtigungen in Ihrem Browser"
+      },
+      "marketingEmails": {
+        "title": "Marketing-E-Mails",
+        "description": "Erhalten Sie Neuigkeiten über neue Funktionen und Updates"
+      }
+    },
+    "privacy": {
+      "title": "Datenschutz & Sicherheit",
+      "twoFactorAuth": {
+        "title": "Zwei-Faktor-Authentifizierung",
+        "description": "Fügen Sie Ihrem Konto eine zusätzliche Sicherheitsebene hinzu"
+      },
+      "dataSharing": {
+        "title": "Datenaustausch",
+        "description": "Erlauben Sie die anonyme Datenerfassung zur Verbesserung unserer Dienste"
+      },
+      "activityLog": {
+        "title": "Aktivitätsprotokoll",
+        "description": "Verfolgen Sie die Kontoaktivität"
+      }
+    },
+    "buttons": {
+      "save": "Änderungen speichern",
+      "reset": "Auf Standardwerte zurücksetzen"
+    },
+    "alerts": {
+      "success": "Einstellungen erfolgreich gespeichert!",
+      "error": "Fehler beim Speichern der Einstellungen. Bitte versuchen Sie es erneut."
+    }
+  },
+  "languages": {
+    "en": "Englisch",
+    "es": "Spanisch",
+    "fr": "Französisch",
+    "de": "Deutsch",
+    "zh": "Chinesisch",
+    "ko": "Koreanisch"
+  }
+}

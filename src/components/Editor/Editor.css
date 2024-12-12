@@ -1,0 +1,17 @@
+.editor-container {
+    padding: 20px; /* Padding around the editor */
+    background-color: #ffffff; /* White background for the editor */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.editor-textarea {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    padding: 10px; /* Padding inside the text area */
+    font-size: 16px; /* Font size */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    resize: none; /* Disable resizing */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Inner shadow */
+}

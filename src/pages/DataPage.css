@@ -1,0 +1,308 @@
+:root {
+    --primary-color: #1a73e8;
+    --primary-light: #e8f0fe;
+    --secondary-color: #5f6368;
+    --border-color: #dadce0;
+    --hover-color: #f8f9fa;
+    --active-color: #e8eaed;
+    --background-color: #ffffff;
+    --text-primary: #202124;
+    --text-secondary: #5f6368;
+    --shadow-sm: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    --shadow-md: 0 2px 6px 2px rgba(60, 64, 67, 0.15);
+    --font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.data-page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+    color: var(--text-primary);
+}
+
+.toolbar {
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 4px 0;
+    box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.toolbar-section {
+    display: flex;
+    gap: 8px;
+    padding: 4px 16px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-group {
+    display: flex;
+    gap: 2px;
+    padding: 4px;
+    border-right: 1px solid var(--border-color);
+    align-items: center;
+}
+
+.menu-group:last-child {
+    border-right: none;
+}
+
+.toolbar-button {
+    height: 36px;
+    padding: 0 12px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+.toolbar-button:hover {
+    background-color: var(--hover-color);
+    border-color: var(--border-color);
+}
+
+.toolbar-button:active {
+    background-color: var(--active-color);
+}
+
+.toolbar-button.active {
+    background-color: var(--primary-light);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.toolbar-button i {
+    font-size: 18px;
+}
+
+.search-bar {
+    padding: 12px 16px;
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-input {
+    width: 300px;
+    height: 40px;
+    padding: 0 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 14px;
+    color: var(--text-primary);
+    background-color: var(--background-color);
+    transition: all 0.2s ease;
+}
+
+.search-input:hover {
+    border-color: var(--secondary-color);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
+}
+
+.table-container {
+    flex: 1;
+    padding: 16px;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    margin: 16px;
+    box-shadow: var(--shadow-md);
+    overflow: auto;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--background-color);
+}
+
+.data-table th {
+    background-color: var(--hover-color);
+    color: var(--text-primary);
+    font-weight: 600;
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 2px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    white-space: nowrap;
+}
+
+.data-table td {
+    padding: 8px 16px;
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.data-table tr:hover {
+    background-color: var(--hover-color);
+}
+
+.data-table tr:last-child td {
+    border-bottom: none;
+}
+
+.data-table td:last-child {
+    border-right: none;
+}
+
+.data-table input {
+    width: 100%;
+    padding: 6px 8px;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    color: var(--text-primary);
+    font-family: var(--font-family);
+}
+
+.data-table input:focus {
+    outline: none;
+    background-color: var(--primary-light);
+}
+
+.footer {
+    background-color: var(--background-color);
+    border-top: 1px solid var(--border-color);
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: var(--text-secondary);
+    box-shadow: var(--shadow-sm);
+}
+
+.selected-cell {
+    background-color: var(--primary-light) !important;
+    border: 2px solid var(--primary-color) !important;
+}
+
+.highlighted-cell {
+    background-color: rgba(26, 115, 232, 0.1) !important;
+}
+
+.menu-separator {
+    width: 1px;
+    height: 24px;
+    background-color: var(--border-color);
+    margin: 0 8px;
+}
+
+.icon-button {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: var(--secondary-color);
+    transition: all 0.2s ease;
+}
+
+.icon-button:hover {
+    background-color: var(--hover-color);
+    color: var(--primary-color);
+}
+
+.icon-button i {
+    font-size: 20px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: var(--shadow-md);
+    z-index: 1000;
+    min-width: 200px;
+    padding: 8px 0;
+    margin-top: 4px;
+}
+
+.dropdown-item {
+    padding: 8px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-primary);
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: var(--hover-color);
+    color: var(--primary-color);
+}
+
+.dropdown-item i {
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #bdc1c6;
+    border-radius: 6px;
+    border: 3px solid var(--background-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #9aa0a6;
+}
+
+/* Loading States */
+.loading-skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}

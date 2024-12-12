@@ -1,0 +1,26 @@
+{
+  "profile": {
+    "title": "Profile",
+    "personalInfo": "Personal Information",
+    "professionalInfo": "Professional Information",
+    "contactInfo": "Contact Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "position": "Position",
+    "location": "Location",
+    "bio": "Bio",
+    "updateAvatar": "Update Profile Picture",
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "saveSuccess": "Profile updated successfully",
+    "saveFailed": "Failed to update profile",
+    "cancelEdit": "Changes discarded",
+    "avatarUpdateSuccess": "Profile picture updated successfully",
+    "avatarUpdateFailed": "Failed to update profile picture",
+    "loading": "Loading profile...",
+    "error": "Error loading profile"
+  }
+}

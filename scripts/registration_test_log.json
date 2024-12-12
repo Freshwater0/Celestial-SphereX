@@ -1,0 +1,11 @@
+{
+  "timestamp": "2024-12-08T10:12:14.868Z",
+  "tests": [
+    {
+      "success": true,
+      "userId": "778c8e28-394f-47fd-a0dd-4ba27c3f5311",
+      "email": "test_user_1733652734869@celestialsphere.com",
+      "registeredAt": "2024-12-08T10:12:21.614Z"
+    }
+  ]
+}
